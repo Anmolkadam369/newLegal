@@ -2,7 +2,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const port = process.env.PORT || 3001;
-const route = require("./route/routes");
+const route = require("./src/route/routes");
 const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
